@@ -1,3 +1,5 @@
-April 3, 2:30PM: Started Designing the single cycle Datapath.
+April 3, 2:30PM: Started Designing the single cycle Datapath diagram.
 
-April 3, 9:58PM: Finished Designing the single cycle Datapath.
+April 3, 9:58PM: Finished Designing the single cycle Datapath diagram.
+
+April 3, 10:51PM: Fixed LW,LH,LB,LHU,LBU,SW,SH,SB in the Datapath diagram
