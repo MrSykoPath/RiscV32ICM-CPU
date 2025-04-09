@@ -1,0 +1,19 @@
+
+April 10, 7:30 PM: Finished writing test cases for arithmetic instructions:
+  - add, sub, sll, slt, sltu, xor, srl, sra, or, and
+
+April 10, 8:00 PM: Finished writing test cases for immediate arithmetic instructions:
+  - addi, slli, slti, sltiu, xori, srli, srai, ori, andi
+
+April 10, 8:20 PM: Finished writing test cases for load instructions:
+  - lb, lh, lw, lbu, lhu
+
+April 10, 8:40 PM: Finished writing test cases for store instructions:
+  - sb, sh, sw
+
+April 10, 9:15 PM: Finished writing test cases for branch instructions:
+  - beq, bne, blt, bge, bltu, bgeu
+
+April 10, 9:30 PM: Finished writing test cases for jump and upper immediate instructions:
+  - jal, jalr, lui, auipc
+
