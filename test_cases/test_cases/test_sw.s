@@ -1,5 +1,4 @@
 # test_sw.s
-addi x1, x0, 0xABCD   # x1 = 0xABCD
-lui  x2, 0x00010      # x2 = 0x10000
-sw   x1, 0(x2)        # store word to Mem[0x10000]
-
+0xABCD0093   # addi x1, x0, 0xABCD
+0x00010537   # lui x2, 0x00010
+0x00112023   # sw x1, 0(x2)
