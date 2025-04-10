@@ -1,4 +1,5 @@
 # test_xori.s
-addi x1, x0, 12      # 1100
-xori x2, x1, 10      # x2 = 6 (1100 ^ 1010)
+0x00C00093   # addi x1, x0, 12
+0x00A0C113   # xori x2, x1, 10
+
 
