@@ -1,5 +1,6 @@
 # test_sll.s
-addi x1, x0, 1
-addi x2, x0, 3
-sll  x3, x1, x2      # x3 = 1 << 3 = 8
+0x00100093   # addi x1, x0, 1
+0x00300113   # addi x2, x0, 3
+0x002091B3   # sll x3, x1, x2
+
 
