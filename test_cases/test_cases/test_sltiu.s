@@ -1,4 +1,4 @@
 # test_sltiu.s
-lui x1, 0x80000      # x1 = 2^31
-sltiu x2, x0, 1      # x2 = 1 (0 < 2^31)
+0x80000537   # lui x1, 0x80000
+0x00101113   # sltiu x2, x0, 1
 
