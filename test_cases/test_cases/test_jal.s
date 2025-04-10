@@ -1,6 +1,6 @@
 # test_jal.s
-jal x1, label         # x1 = PC + 4
-addi x10, x0, 0       # skipped
+0x008000EF  #jal x1, label         # x1 = PC + 4 # jal x1, label (8-byte forward jump)
+0x00000513 #addi x10, x0, 0       # skipped
 label:
-addi x10, x0, 1       # x10 = 1, reached via jump
+0x00100513 #addi x10, x0, 1       # x10 = 1, reached via jump
 
