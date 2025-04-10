@@ -3,3 +3,10 @@ April 3, 2:30PM: Started Designing the single cycle Datapath diagram.
 April 3, 9:58PM: Finished Designing the single cycle Datapath diagram.
 
 April 3, 10:51PM: Fixed LW,LH,LB,LHU,LBU,SW,SH,SB in the Datapath diagram
+
+April 9, 6:47PM: Started working on the single cycle cpu.
+
+April 10, 12:30AM: Finished all components.
+
+April 10, 9:20PM: Finished the single cycle cpu
+
