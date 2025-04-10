@@ -1,5 +1,6 @@
 # test_sh.s
-addi x1, x0, 1234     # x1 = 0x04D2
-lui  x2, 0x00010      # x2 = 0x10000
-sh   x1, 0(x2)        # store halfword to Mem[0x10000]
+0x4D200093   # addi x1, x0, 1234
+0x00010537   # lui x2, 0x00010
+0x00111023   # sh x1, 0(x2)
+
 
