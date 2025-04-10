@@ -1,4 +1,5 @@
 # test_lhu.s
-lui x1, 0x00010       # x1 = 0x10000
-lhu x2, 0(x1)         # x2 = Mem[0x10000] (unsigned halfword)
+0x00010537   # lui x1, 0x00010
+0x0000A583   # lhu x2, 0(x1)
+
 
