@@ -1,14 +1,14 @@
 
-April 10, 7:30 PM: Finished writing test cases for arithmetic instructions:
+April 8, 5:30 PM: Finished writing test cases for arithmetic instructions:
   - add, sub, sll, slt, sltu, xor, srl, sra, or, and
 
-April 10, 8:00 PM: Finished writing test cases for immediate arithmetic instructions:
+April 8, 6:00 PM: Finished writing test cases for immediate arithmetic instructions:
   - addi, slli, slti, sltiu, xori, srli, srai, ori, andi
 
-April 10, 8:20 PM: Finished writing test cases for load instructions:
+April 9, 8:20 PM: Finished writing test cases for load instructions:
   - lb, lh, lw, lbu, lhu
 
-April 10, 8:40 PM: Finished writing test cases for store instructions:
+April 9, 8:40 PM: Finished writing test cases for store instructions:
   - sb, sh, sw
 
 April 10, 9:15 PM: Finished writing test cases for branch instructions:
@@ -16,4 +16,6 @@ April 10, 9:15 PM: Finished writing test cases for branch instructions:
 
 April 10, 9:30 PM: Finished writing test cases for jump and upper immediate instructions:
   - jal, jalr, lui, auipc
+
+April 10, 11:45 PM: Finished converting all test case .hex files into little-endian byte-by-byte format (1 byte per line) for memory loading
 
