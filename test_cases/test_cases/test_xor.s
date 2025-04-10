@@ -1,5 +1,4 @@
 # test_xor.s
-addi x1, x0, 12      # 1100
-addi x2, x0, 10      # 1010
-xor  x3, x1, x2      # 0110 = 6
-
+0x00C00093   # addi x1, x0, 12
+0x00A00113   # addi x2, x0, 10
+0x0020C1B3   # xor x3, x1, x2
