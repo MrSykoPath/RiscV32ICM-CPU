@@ -1,4 +1,4 @@
 # test_lh.s
-lui x1, 0x00010       # x1 = 0x10000
-lh x2, 0(x1)          # x2 = Mem[0x10000] (signed halfword)
+0x00010537   # lui x1, 0x00010
+0x0000A103   # lh x2, 0(x1)
 
