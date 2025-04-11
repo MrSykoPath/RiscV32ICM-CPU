@@ -70,7 +70,7 @@ output [12:0] seg
     assign PC_Next = PC_Out + 4;
 
     InstMemory InstMem(
-        .addr(PC_Out[7:0]),
+        .addr(PC_Out[11:0]),
         .data_out(Inst)
     );
 
@@ -137,7 +137,7 @@ output [12:0] seg
         .PCSel(BranchControl)
     );
 
-    assign PC_Branch_Jump = PC_Out + {{ImmGenOut[31:1], 1'b0}}; //Shift left 1
+    assign PC_Branch_Jump = PC_Out + {{ImmGenOut[30:0], 1'b0}}; //Shift left 1
 
     assign PC_In = (BranchControl == 2'b01) ? PC_Branch_Jump : //PC_Branch_Jump
                     (BranchControl == 2'b10) ? ALUResult : //ALUResult
@@ -148,7 +148,7 @@ output [12:0] seg
         .MemRead(MemRead),
         .MemWrite(MemWrite),
         .func3(Inst[14:12]),
-        .addr(ALUResult[7:0]),
+        .addr(ALUResult[11:0]),
         .data_in(RegisterData2),
         .data_out(DataMemoryOut)
     );

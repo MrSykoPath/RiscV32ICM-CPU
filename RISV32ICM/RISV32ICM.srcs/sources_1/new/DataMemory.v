@@ -25,16 +25,17 @@ input clk,
 input MemRead,
 input MemWrite,
 input [2:0] func3,
-input [7:0] addr,
+input [11:0] addr,
 input [31:0] data_in,
 output [31:0] data_out
     );
-    reg [7:0] mem[255:0];
+    reg [7:0] mem[(4*1024-1):0];
 
 //     initial begin
-//     mem[0]=32'd17;
-//     mem[1]=32'd9;
-//     mem[2]=32'd25;
+//         mem[4] = 8'hFF;  //Byte = 255
+//         mem[5] = 8'hFF;   //Halfword = 65535
+//         mem[6] = 8'h31; 
+//         mem[7] = 8'h23; //Word = 590479359
 //  end
 
    always @(posedge clk) begin

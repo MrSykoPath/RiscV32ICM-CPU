@@ -44,7 +44,7 @@ assign ALUOp = ((Instruction[6:2] == 5'b01100)) ? 2'b10 :
                 ((Instruction[6:2] == 5'b00100)) ? 2'b11 :
                 (Instruction[6:2] == 5'b11000) ? 2'b01 : 2'b00; //Done
 assign MemWrite = (Instruction[6:2] == 5'b01000) ? 1: 0; //Done
-assign ALUSrc = ((Instruction[6:2] == 5'b11011) || (Instruction[6:2] == 5'b11001) || (Instruction[6:2] == 5'b00101)) ? 1 : 0; //Done 1=PC 0=Reg
+assign ALUSrc = ((Instruction[6:2] == 5'b11011) || (Instruction[6:2] == 5'b00101)) ? 1 : 0; //Done 1=PC 0=Reg
 assign ALUSrc2 = ((Instruction[6:2] == 5'b01101) || (Instruction[6:2] == 5'b00101)) ? 2'b01 : //Immgen shift 12
                  ((Instruction[6:2] == 5'b11001) || (Instruction[6:2] == 5'b00000) || (Instruction[6:2] == 5'b01000) || (Instruction[6:2] == 5'b00100)) ? 2'b10 : //Immgen
                  ((Instruction[6:2] == 5'b11000) || (Instruction[6:2] == 5'b01100)) ? 2'b00 : 2'b00; //Done Reg
