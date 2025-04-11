@@ -2,3 +2,6 @@ Running: xsim.dir/SCCPU_testbench_behav/xsimk.exe -simmode gui -wdb SCCPU_testbe
 Design successfully loaded
 Design Loading Memory Usage: 28160 KB (Peak: 28160 KB)
 Design Loading CPU Usage: 733 ms
+Simulation completed
+Simulation Memory Usage: 29748 KB (Peak: 29748 KB)
+Simulation CPU Usage: 811 ms

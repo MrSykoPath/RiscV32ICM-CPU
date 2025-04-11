@@ -10,5 +10,7 @@ April 10, 12:30AM: Finished all components.
 
 April 10, 9:20PM: Finished the single cycle cpu
 
-April 11, 04:20A: Finished Testing all instructions
+April 11, 04:20AM: Finished Testing all instructions
+
+April 11, 04:50M: Wrapped the report up
 
