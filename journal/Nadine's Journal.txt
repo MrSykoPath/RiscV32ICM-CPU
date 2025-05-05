@@ -19,3 +19,4 @@ April 10, 9:30 PM: Finished writing test cases for jump and upper immediate inst
 
 April 10, 11:45 PM: Finished converting all test case .hex files into little-endian byte-by-byte format (1 byte per line) for memory loading
 
+May 3, 7:00 PM: Added RV32M and RV32C binary test cases with comments.
