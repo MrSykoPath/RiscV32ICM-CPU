@@ -57,4 +57,12 @@ module PPCPU_testbench(
         reset = 0;
         # (clock * 15);
     end
+    
+    reg signed [4:0]xx;
+    reg signed [4:0]yy;
+    initial begin
+      xx = 15;
+      yy = -3;
+      $display("%d / %d = %d",xx,yy,xx/yy);
+    end 
 endmodule

@@ -21,8 +21,8 @@
 
 
 module ALU(
-input [31:0] A,
-input [31:0] B,
+input[31:0] A,
+input[31:0] B,
 input [4:0] Sel,
 output signed [31:0] S,
 output ZeroFlag,
@@ -30,43 +30,45 @@ output OverflowFlag,
 output NegativeFlag,
 output CarryFlag
     );
-
-    wire [32:0] Add;
-    wire [32:0] Sub;
+    wire signed [31:0] sA;
+    wire signed [31:0] sB;
+    wire signed [32:0] Add;
+    wire signed [32:0] Sub;
     wire [31:0] Sll;
-    wire [31:0] Slt;
+    wire signed [31:0] Slt;
     wire [31:0] Sltu;
-    wire [31:0] Xor;
+    wire signed[31:0] Xor;
     wire [31:0] Srl;
-    wire [31:0] Sra;
-    wire [31:0] Or;
-    wire [31:0] And;
-    wire [63:0] Mul;
-    wire [63:0] MULHSU;
+    wire signed[31:0] Sra;
+    wire signed[31:0] Or;
+    wire signed[31:0] And;
+    wire signed[63:0] Mul;
+    wire signed[63:0] MULHSU;
     wire [63:0] MULHU;
-    wire [31:0] Div;
+    wire signed [31:0] Div;
     wire [31:0] Divu;
-    wire [31:0] Rem;
+    wire signed[31:0] Rem;
     wire [31:0] Remu;
 
-
-    assign Add = A + B;
-    assign Sub = A + (~B) + 1;
+    assign sA = $signed(A);
+    assign sB = $signed(B);
+    assign Add = sA + sB;
+    assign Sub = sA + (~sB) + 1;
     assign Sll = A << B[4:0];
-    assign Slt = ($signed(A) < $signed(B)) ? 32'b1 : 32'b0;
+    assign Slt = (sA < sB) ? 32'b1 : 32'b0;
     assign Sltu = (A < B) ? 32'b1 : 32'b0;
-    assign Xor = A ^ B;
+    assign Xor = sA ^ sB;
     assign Srl = A >> B[4:0];
-    assign Sra = $signed(A) >>> B[4:0];
-    assign Or = A | B;
-    assign And = A & B;
-    assign Mul = $signed(A) * $signed(B);
-    assign MULHSU = $signed(A) * B;
+    assign Sra = sA >>> sB;
+    assign Or = sA | sB;
+    assign And = sA & sB;
+    assign Mul = sA * sB;
+    assign MULHSU = sA * B;
     assign MULHU = A * B;
-    assign Div = (B == 0) ? {32{1'b1}} : $signed(A) / $signed(B);
+    assign Div = (B == 0) ? -1 : sA / sB;
     assign Divu = (B == 0) ? {32{1'b1}} : A / B;
-    assign Rem = $signed(A) % $signed(B);
-    assign Remu = A % B;
+    assign Rem = (B == 0) ? -1 :$signed( sA % sB);
+    assign Remu = (B == 0) ? {32{1'b1}} : A % B;
 
     assign S = (Sel == 5'b00000) ? Add[31:0] :
                (Sel == 5'b00001) ? Sub[31:0] :

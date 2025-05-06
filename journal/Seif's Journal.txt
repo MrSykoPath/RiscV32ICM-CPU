@@ -44,7 +44,7 @@ May 6th 6:20AM: DIV and REM do not work with signed numbers for some reason.
 
 May 7th 7:30AM: Finished the Report.
 
-
+May 7th 11:45PM: Fixed DIV and REM and added them to the report
 
 
 
