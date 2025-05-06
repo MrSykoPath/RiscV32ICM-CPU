@@ -1,27 +1,9 @@
 Vivado Simulator v2024.2.0
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: D:/Xilinix/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SCCPU_testbench_behav xil_defaultlib.SCCPU_testbench xil_defaultlib.glbl -log elaborate.log 
+Running: D:/Xilinix/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PPCPU_testbench_behav xil_defaultlib.PPCPU_testbench xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.Mux2x1
-Compiling module xil_defaultlib.DFlipFlop
-Compiling module xil_defaultlib.NBitRegisters(n=32)
-Compiling module xil_defaultlib.InstMemory
-Compiling module xil_defaultlib.ControlUnit
-Compiling module xil_defaultlib.NDecoder(n=5)
-Compiling module xil_defaultlib.RegisterFile(n=32)
-Compiling module xil_defaultlib.ImmGen
-Compiling module xil_defaultlib.ALUControlUnit
-Compiling module xil_defaultlib.ALU
-Compiling module xil_defaultlib.BranchJumpControlUnit
-Compiling module xil_defaultlib.DataMemory
-Compiling module xil_defaultlib.SCCPU
-Compiling module xil_defaultlib.SCCPU_testbench
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot SCCPU_testbench_behav
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

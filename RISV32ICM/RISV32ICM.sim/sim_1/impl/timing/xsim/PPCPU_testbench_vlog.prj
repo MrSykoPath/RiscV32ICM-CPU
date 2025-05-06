@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"PPCPU_testbench_time_impl.v" \
+"../../../../../RISV32ICM.srcs/sim_1/new/PPCPU_testbench.v" \
+
+# Do not sort compile order
+nosort

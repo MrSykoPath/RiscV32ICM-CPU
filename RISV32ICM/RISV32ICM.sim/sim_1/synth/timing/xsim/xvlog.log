@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell-/Desktop/AUC/AUC semester 6/Computer Architecture/RISCV32ICM CPU/RiscV32ICM-CPU/RISV32ICM/RISV32ICM.sim/sim_1/synth/timing/xsim/PPCPU_testbench_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCCPU
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell-/Desktop/AUC/AUC semester 6/Computer Architecture/RISCV32ICM CPU/RiscV32ICM-CPU/RISV32ICM/RISV32ICM.srcs/sim_1/new/PPCPU_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PPCPU_testbench

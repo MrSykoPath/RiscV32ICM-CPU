@@ -37,7 +37,8 @@ module ImmGen(
     assign U_gen_out = {(ins[31] == 1) ? 12'b111111111111 : 12'b000000000000, ins[31:12]};
     assign UJ_gen_out = {(ins[31] == 1) ? 12'b111111111111 : 12'b000000000000, ins[31], ins[19:12],ins[20], ins[30:21]};
 
-    assign gen_out = ((ins[6:2] == 5'b11001) || (ins[6:2] == 5'b00000) || (ins[6:2] == 5'b00100)) ? I_gen_out :
+    assign gen_out =((ins[6:2] == 5'b00100) && ((ins[14:12] == 5'b001) || (ins[14:12] == 5'b101))) ? {7'b0,I_gen_out[4:0]} :
+                    ((ins[6:2] == 5'b11001) || (ins[6:2] == 5'b00000) || (ins[6:2] == 5'b00100)) ? I_gen_out :
                     (ins[6:2] == 5'b01000) ? S_gen_out :
                     (ins[6:2] == 5'b11000) ? SB_gen_out :
                     ((ins[6:2] == 5'b01101) || (ins[6:2] == 5'b00101)) ? U_gen_out :

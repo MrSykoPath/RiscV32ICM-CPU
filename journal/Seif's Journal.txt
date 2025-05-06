@@ -12,5 +12,39 @@ April 10, 9:20PM: Finished the single cycle cpu
 
 April 11, 04:20AM: Finished Testing all instructions
 
-April 11, 04:50M: Wrapped the report up
+April 11, 4:50AM: Wrapped the report up
+
+April 24, 12:00PM: Started working on the pipelined Architecture
+
+April 24, 11:36PM: Stopped at the EX/MEM stage
+
+April 25, 2:24PM: Continuing the design.
+
+April 25, 6:39PM: Stopped at the Forwarding Unit
+
+April 26, 11:45AM: Continuing the design.
+
+April 26, 2:06PM: Finished the Pipelined Design.
+
+April 26, 2:16PM: Started working on the decompression unit
+
+April 27, 10:31PM: Finished the Decompressor
+
+May 2nd, 7:00PM: Started implementing the pipelined design
+
+May 3rd, 11:17PM: Finished implementing the pipelined.
+
+May 3rd 11:30PM - May 4th 05:00AM: Debugging the pipelined implementation. There was an issue with the instantaneous change in signals that caused the data write on the clk edges to be ambigious. This was fixed by reading online and consulting with Copilot.
+
+May 4th 6:21PM: Started testing and writing the report.
+
+May 5th 6:00PM: Continued writing the report, testing and Debugging incorrect executions
+
+May 6th 6:20AM: DIV and REM do not work with signed numbers for some reason.
+
+May 7th 7:30AM: Finished the Report.
+
+
+
+
 

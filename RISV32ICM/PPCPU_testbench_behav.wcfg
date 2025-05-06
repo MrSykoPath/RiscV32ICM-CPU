@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="PPCPU_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="PPCPU_testbench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3,331.170 ns"></ZoomStartTime>
+      <ZoomEndTime time="9,781.171 ns"></ZoomEndTime>
+      <Cursor1Time time="9,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="170"></NameColumnWidth>
+      <ValueColumnWidth column_width="76"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="115" />
+   <wvobject fp_name="/PPCPU_testbench/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ledSel" type="array">
+      <obj_property name="ElementShortName">ledSel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ledSel[1:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ssdSel" type="array">
+      <obj_property name="ElementShortName">ssdSel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ssdSel[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ssdclk" type="logic">
+      <obj_property name="ElementShortName">ssdclk</obj_property>
+      <obj_property name="ObjectShortName">ssdclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/led" type="array">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/seg" type="array">
+      <obj_property name="ElementShortName">seg[12:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/Inst_Op_reg" type="array">
+      <obj_property name="ElementShortName">Inst_Op_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Inst_Op_reg[1:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/PC_Out" type="array">
+      <obj_property name="ElementShortName">PC_Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_Out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/PC_In" type="array">
+      <obj_property name="ElementShortName">PC_In[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_In[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/PC_Next" type="array">
+      <obj_property name="ElementShortName">PC_Next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_Next[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/RegFile/Intermediary[9]" type="array">
+      <obj_property name="ElementShortName">[9][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/RegFile/Intermediary[8]" type="array">
+      <obj_property name="ElementShortName">[8][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/RegFile/Intermediary[7]" type="array">
+      <obj_property name="ElementShortName">[7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/RegFile/Intermediary[6]" type="array">
+      <obj_property name="ElementShortName">[6][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/RegFile/Intermediary[5]" type="array">
+      <obj_property name="ElementShortName">[5][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/RegFile/Intermediary[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/RegFile/Intermediary[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/RegFile/Intermediary[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/RegFile/Intermediary[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/RegFile/Intermediary[0]" type="array">
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/Inst_Data" type="array">
+      <obj_property name="ElementShortName">Inst_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Inst_Data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/Inst_Op" type="array">
+      <obj_property name="ElementShortName">Inst_Op[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Inst_Op[1:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/decompressed_instr" type="array">
+      <obj_property name="ElementShortName">decompressed_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">decompressed_instr[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/pc_en" type="logic">
+      <obj_property name="ElementShortName">pc_en</obj_property>
+      <obj_property name="ObjectShortName">pc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/RegFile/Intermediary" type="array">
+      <obj_property name="ElementShortName">Intermediary[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">Intermediary[31:0][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ImmGen_Out" type="array">
+      <obj_property name="ElementShortName">ImmGen_Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmGen_Out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/Jump" type="logic">
+      <obj_property name="ElementShortName">Jump</obj_property>
+      <obj_property name="ObjectShortName">Jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MemtoReg" type="array">
+      <obj_property name="ElementShortName">MemtoReg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg[1:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ALUSrc2" type="array">
+      <obj_property name="ElementShortName">ALUSrc2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc2[1:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/Rs1_Data" type="array">
+      <obj_property name="ElementShortName">Rs1_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1_Data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/Rs2_Data" type="array">
+      <obj_property name="ElementShortName">Rs2_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs2_Data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/BranchControl" type="array">
+      <obj_property name="ElementShortName">BranchControl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BranchControl[1:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/Flush" type="logic">
+      <obj_property name="ElementShortName">Flush</obj_property>
+      <obj_property name="ObjectShortName">Flush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/PC_Add" type="array">
+      <obj_property name="ElementShortName">PC_Add[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_Add[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ForwardA" type="logic">
+      <obj_property name="ElementShortName">ForwardA</obj_property>
+      <obj_property name="ObjectShortName">ForwardA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ForwardB" type="logic">
+      <obj_property name="ElementShortName">ForwardB</obj_property>
+      <obj_property name="ObjectShortName">ForwardB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ForwardA_Data" type="array">
+      <obj_property name="ElementShortName">ForwardA_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardA_Data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ForwardB_Data" type="array">
+      <obj_property name="ElementShortName">ForwardB_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardB_Data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ALUSrc1_Data" type="array">
+      <obj_property name="ElementShortName">ALUSrc1_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc1_Data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ALUSrc2_Data" type="array">
+      <obj_property name="ElementShortName">ALUSrc2_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc2_Data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ALUSel" type="array">
+      <obj_property name="ElementShortName">ALUSel[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUSel[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ALUResult" type="array">
+      <obj_property name="ElementShortName">ALUResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ALU/Div" type="array">
+      <obj_property name="ElementShortName">Div[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Div[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ZeroFlag" type="logic">
+      <obj_property name="ElementShortName">ZeroFlag</obj_property>
+      <obj_property name="ObjectShortName">ZeroFlag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/OverflowFlag" type="logic">
+      <obj_property name="ElementShortName">OverflowFlag</obj_property>
+      <obj_property name="ObjectShortName">OverflowFlag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/NegativeFlag" type="logic">
+      <obj_property name="ElementShortName">NegativeFlag</obj_property>
+      <obj_property name="ObjectShortName">NegativeFlag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/CarryFlag" type="logic">
+      <obj_property name="ElementShortName">CarryFlag</obj_property>
+      <obj_property name="ObjectShortName">CarryFlag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/Write_Data" type="array">
+      <obj_property name="ElementShortName">Write_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Write_Data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/Data_Reg" type="array">
+      <obj_property name="ElementShortName">Data_Reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_Reg[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/Data_Reg_out" type="array">
+      <obj_property name="ElementShortName">Data_Reg_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_Reg_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/IF_ID_PC_Next" type="array">
+      <obj_property name="ElementShortName">IF_ID_PC_Next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_PC_Next[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/IF_ID_PC_Out" type="array">
+      <obj_property name="ElementShortName">IF_ID_PC_Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_PC_Out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/IF_ID_Inst_Data" type="array">
+      <obj_property name="ElementShortName">IF_ID_Inst_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_Inst_Data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/EX_MEM_ALUResult" type="array">
+      <obj_property name="ElementShortName">EX_MEM_ALUResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_ALUResult[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/EX_MEM_Rs2_Data" type="array">
+      <obj_property name="ElementShortName">EX_MEM_Rs2_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Rs2_Data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/EX_MEM_PC_Add" type="array">
+      <obj_property name="ElementShortName">EX_MEM_PC_Add[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_PC_Add[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/EX_MEM_func3" type="array">
+      <obj_property name="ElementShortName">EX_MEM_func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_func3[2:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/EX_MEM_Write_Reg" type="array">
+      <obj_property name="ElementShortName">EX_MEM_Write_Reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Write_Reg[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/EX_MEM_PC_Next" type="array">
+      <obj_property name="ElementShortName">EX_MEM_PC_Next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_PC_Next[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/EX_MEM_ImmGen_Out_shifted" type="array">
+      <obj_property name="ElementShortName">EX_MEM_ImmGen_Out_shifted[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_ImmGen_Out_shifted[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/EX_MEM_MemRead" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_MemRead</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/EX_MEM_MemWrite" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_MemWrite</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/EX_MEM_Branch" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_Branch</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/EX_MEM_Jump" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_Jump</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/EX_MEM_RegWrite" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/EX_MEM_NegativeFlag" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_NegativeFlag</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_NegativeFlag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/EX_MEM_OverflowFlag" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_OverflowFlag</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_OverflowFlag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/EX_MEM_CarryFlag" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_CarryFlag</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_CarryFlag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/EX_MEM_ZeroFlag" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_ZeroFlag</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_ZeroFlag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/EX_MEM_MemtoReg" type="array">
+      <obj_property name="ElementShortName">EX_MEM_MemtoReg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_MemtoReg[1:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MEM_WB_MemtoReg" type="array">
+      <obj_property name="ElementShortName">MEM_WB_MemtoReg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_MemtoReg[1:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MEM_WB_RegWrite" type="logic">
+      <obj_property name="ElementShortName">MEM_WB_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MEM_WB_Write_Reg" type="array">
+      <obj_property name="ElementShortName">MEM_WB_Write_Reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_Write_Reg[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MEM_WB_ALUResult" type="array">
+      <obj_property name="ElementShortName">MEM_WB_ALUResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_ALUResult[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MEM_WB_MemData" type="array">
+      <obj_property name="ElementShortName">MEM_WB_MemData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_MemData[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MEM_WB_PC_Next" type="array">
+      <obj_property name="ElementShortName">MEM_WB_PC_Next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_PC_Next[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MEM_WB_ImmGen_Out_shifted" type="array">
+      <obj_property name="ElementShortName">MEM_WB_ImmGen_Out_shifted[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_ImmGen_Out_shifted[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_MemtoReg" type="array">
+      <obj_property name="ElementShortName">ID_EX_MemtoReg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_MemtoReg[1:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_RegWrite" type="logic">
+      <obj_property name="ElementShortName">ID_EX_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_Jump" type="logic">
+      <obj_property name="ElementShortName">ID_EX_Jump</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_Branch" type="logic">
+      <obj_property name="ElementShortName">ID_EX_Branch</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_MemRead" type="logic">
+      <obj_property name="ElementShortName">ID_EX_MemRead</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_MemWrite" type="logic">
+      <obj_property name="ElementShortName">ID_EX_MemWrite</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_ALUOp" type="array">
+      <obj_property name="ElementShortName">ID_EX_ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_ALUOp[1:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ID_EX_ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_ALUSrc2" type="array">
+      <obj_property name="ElementShortName">ID_EX_ALUSrc2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_ALUSrc2[1:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_PC_Next" type="array">
+      <obj_property name="ElementShortName">ID_EX_PC_Next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_PC_Next[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_PC_Out" type="array">
+      <obj_property name="ElementShortName">ID_EX_PC_Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_PC_Out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_Rs1_Data" type="array">
+      <obj_property name="ElementShortName">ID_EX_Rs1_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Rs1_Data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_Rs2_Data" type="array">
+      <obj_property name="ElementShortName">ID_EX_Rs2_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Rs2_Data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_Rs1" type="array">
+      <obj_property name="ElementShortName">ID_EX_Rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Rs1[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_Rs2" type="array">
+      <obj_property name="ElementShortName">ID_EX_Rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Rs2[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_ImmGen_Out" type="array">
+      <obj_property name="ElementShortName">ID_EX_ImmGen_Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_ImmGen_Out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_funcs" type="array">
+      <obj_property name="ElementShortName">ID_EX_funcs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_funcs[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/ID_EX_Write_Reg" type="array">
+      <obj_property name="ElementShortName">ID_EX_Write_Reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Write_Reg[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MainMemory/mem[12]" type="array">
+      <obj_property name="ElementShortName">[12][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[12][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MainMemory/mem[11]" type="array">
+      <obj_property name="ElementShortName">[11][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[11][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MainMemory/mem[10]" type="array">
+      <obj_property name="ElementShortName">[10][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[10][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MainMemory/mem[9]" type="array">
+      <obj_property name="ElementShortName">[9][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[9][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MainMemory/mem[8]" type="array">
+      <obj_property name="ElementShortName">[8][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[8][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MainMemory/mem[7]" type="array">
+      <obj_property name="ElementShortName">[7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[7][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MainMemory/mem[6]" type="array">
+      <obj_property name="ElementShortName">[6][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[6][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MainMemory/mem[5]" type="array">
+      <obj_property name="ElementShortName">[5][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MainMemory/mem[4]" type="array">
+      <obj_property name="ElementShortName">[4][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MainMemory/mem[3]" type="array">
+      <obj_property name="ElementShortName">[3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MainMemory/mem[2]" type="array">
+      <obj_property name="ElementShortName">[2][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MainMemory/mem[1]" type="array">
+      <obj_property name="ElementShortName">[1][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PPCPU_testbench/uut/MainMemory/mem[0]" type="array">
+      <obj_property name="ElementShortName">[0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

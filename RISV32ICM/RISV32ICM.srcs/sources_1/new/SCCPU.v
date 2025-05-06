@@ -40,7 +40,7 @@ output [12:0] seg
     wire [1:0] MemtoReg;
     wire [1:0] ALUOp;
     wire MemWrite;
-    wire [1:0] ALUSrc2;
+    wire [1:0] ALUSrc2; 
     wire ALUSrc;
     wire RegWrite;
     wire [31:0] RegisterData1;

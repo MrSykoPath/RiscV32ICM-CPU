@@ -31,12 +31,12 @@ output [31:0] data_out
     );
     reg [7:0] mem[(4*1024-1):0];
 
-//     initial begin
-//         mem[4] = 8'hFF;  //Byte = 255
-//         mem[5] = 8'hFF;   //Halfword = 65535
-//         mem[6] = 8'h31; 
-//         mem[7] = 8'h23; //Word = 590479359
-//  end
+     initial begin
+    mem[0] = 8'd1;
+    mem[1] = 8'd0;
+    mem[2] = 8'd0;
+    mem[3] = 8'd1; //(word at 0: 0x00000001)
+    end
 
    always @(posedge clk) begin
     if (MemWrite) begin
