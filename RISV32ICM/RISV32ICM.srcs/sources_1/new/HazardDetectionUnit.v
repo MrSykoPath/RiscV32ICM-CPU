@@ -21,10 +21,9 @@
 
 
 module HazardDetectionUnit(
-input Jump,
-input Branch,
+input [1:0] PCSel,
 output Flush
     );
 
-    assign Flush = (Jump || Branch) ? 1 : 0; //Flush the pipeline if a jump or branch is detected
+    assign Flush = ((PCSel == 2'b01) || (PCSel == 2'b10)) ? 1'b1 : 1'b0; //Flush the pipeline if a branch or jump is taken
 endmodule

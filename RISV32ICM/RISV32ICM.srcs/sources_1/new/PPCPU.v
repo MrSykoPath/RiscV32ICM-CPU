@@ -207,8 +207,7 @@ end
     );
 
     HazardDetectionUnit HazardUnit( //Hazard Detection Unit
-        .Jump(EX_MEM_Jump),
-        .Branch(EX_MEM_Branch),
+        .PCSel(BranchControl),
         .Flush(Flush)
     );
 
@@ -385,4 +384,23 @@ end
                         (MEM_WB_MemtoReg == 2'b11) ? MEM_WB_MemData : //Data Memory
                         (MEM_WB_MemtoReg == 2'b01) ? MEM_WB_ImmGen_Out_shifted : //Shifted ImmGen
                         MEM_WB_ALUResult; //ALU Result
+    
+    assign led = (ledSel == 2'b00) ? PC_Out[15:0] :
+                (ledSel == 2'b01) ? PC_Out[31:16] :
+                (ledSel == 2'b10) ? Rs1_Data[15:0] :
+                (ledSel == 2'b11) ? Rs1_Data[31:16] : 16'b0;
+    
+    assign seg = (ssdSel == 4'b0000) ? PC_Out[12:0] :
+                 (ssdSel == 4'b0001) ? PC_Next[12:0] :
+                 (ssdSel == 4'b0010) ? PC_Add[12:0] :
+                 (ssdSel == 4'b0011) ? PC_In[12:0] :
+                 (ssdSel == 4'b0100) ? Rs1_Data[12:0] :
+                 (ssdSel == 4'b0101) ? Rs2_Data[12:0] :
+                 (ssdSel == 4'b0110) ? Write_Data[12:0] :
+                 (ssdSel == 4'b0111) ? ImmGen_Out[12:0] :
+                 (ssdSel == 4'b1000) ? EX_MEM_ImmGen_Out_shifted[12:0] :
+                 (ssdSel == 4'b1001) ? ALUSrc2_Data[12:0] :
+                 (ssdSel == 4'b1010) ? ALUResult[12:0] :
+                 (ssdSel == 4'b1011) ? Inst_Data[12:0] : 
+                 (ssdSel == 4'b1100) ? {8'b0, MEM_WB_Write_Reg} : 13'b0;
     endmodule
